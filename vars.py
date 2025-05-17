@@ -1,6 +1,7 @@
 #🇳‌🇮‌🇰‌🇭‌🇮‌🇱‌
 # Add your details here and then deploy by clicking on HEROKU Deploy button
 import os
+from os import environ
 
 API_ID    = os.environ.get("API_ID", "12475131")
 API_HASH  = os.environ.get("API_HASH", "719171e38be5a1f500613837b79c536f")
